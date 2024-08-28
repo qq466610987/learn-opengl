@@ -1,0 +1,69 @@
+# 忽略编译生成的文件
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+*.idb
+*.ilk
+*.pdb
+*.svclog
+*.sbr
+
+# 忽略Visual Studio生成的临时文件和文件夹
+.vs/
+# 或者如果你使用的是VS2017或更高版本
+.vscode/
+
+# 忽略用户特定的设置文件
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# 忽略其他IDE和编辑器的配置文件
+*.ncb
+*.aps
+*.vspscc
+*_i.c
+*_p.c
+*.ilk
+
+# 忽略构建目录
+Build/
+build/
+Debug*/
+Release*/
+x64/
+x86/
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj1
+*.pch
+*.vsps
+
+# 忽略依赖包和虚拟环境
+*.venv
+venv/
+env/
+envWin-x64_Debug/
+envWin-x86_Debug/
+
+# 忽略操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 忽略备份和临时文件
+*.bak
+*.tmp
+*.temp
+*.log
+*.old
+*.bak.*
+
+# 忽略源代码管理系统的文件
+.git/
+.hg/
+.svn/
